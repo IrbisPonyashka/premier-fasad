@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier Fasad</title>
+    <!-- libs -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <link rel="stylesheet" href="style/libs/mmenu-light.css">
+    <script src="style/libs/mmenu-light.js"></script>
+    <link rel="stylesheet" href="style/libs/hamburgers.css">
+    <!-- libs end -->
+    
+    <link href="https://fonts.cdnfonts.com/css/druk-text-wide-trial" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/assets.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <nav class="header__nav container">
+                <div class="burger__menu">
+                    <a href="#menu" class="content__button btn-yellow shadow burger">
+                        <button class="hamburger hamburger--spin" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>  
+                    </a>
+                </div>
+                <div id="menu" class="header__top">
+                    <ul class="header__nav-menu">
+                        <li class="header__nav-points"><a href="http://">О компании</a></li>
+                        <li class="header__nav-points"><a href="http://">Наши работы</a></li>
+                        <li class="header__nav-points"><a href="http://">Оплата и доставка</a></li>
+                        <li class="header__nav-points"><a href="http://">Контакты</a></li>
+                        <li class="header__nav-points"><a href="http://">Реализованные проекты</a></li>
+                        <li class="header__nav-points"><a href="http://">Сотрудничество</a></li>
+                    </ul>
+                    <div class="header__worktime">
+                        <p class="header__worktime-text">
+                            Ежедневно<b>с 10.00 до 19.00</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="header__bottom">
+                    <div class="header__bottom-logo">
+                        <img src="assets/icons/Logo.svg" alt="">
+                    </div>
+                    <div class="header__bottom-search">
+                        <label for="search-site">
+                            <input id="search-site" type="text" placeholder="Поиск на сайте">
+                            <button type="submit" class="content__button btn-yellow">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <!-- <i class="fa-solid fa-house"></i> -->
+                            </button>
+                        </label>
+                    </div>
+                    <div class="header__bottom-phones">
+                        <a href=":8 (800) 250-24-11">8 (800) 250-24-11</a>
+                        <a href="+7 (916) 669-79-12">+7 (916) 669-79-12</a>
+                    </div>
+                    <div class="header__bottom-favourites">
+                        <div class="header__bottom-favourites-wrapper">
+                            <span class="counts">0</span>
+                            <button class="content__button btn-blue shadow">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__bottom-buttons">
+                        <button class="content__button btn-yellow shadow">
+                            <i class="fa-solid fa-phone"></i>
+                            Перезвонить мне
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__content">
+                <div class="header__content-wrapper container">
+                    <div class="header__content-left">
+                        <div class="header__content-title">
+                            <h2 class="content__title-big">Производство мебели
+                                <b class="content__title-small">Вашим размерам в Москве</b>
+                            </h2>
+                        </div>
+                        <ul class="header__content-items">
+                            <li class="header__content-item">
+                                <div class="header__content-item-img">
+                                    <img src="assets/icons/header-svg1.svg" alt="">
+                                </div>
+                                <p class="content__descr">
+                                    Реализуем проект любого размера
+                                    <b>с шагом в 1 мм</b>
+                                </p>
+                            </li>
+                            <li class="header__content-item">
+                                <div class="header__content-item-img">
+                                    <img src="assets/icons/header-svg2.svg" alt="">
+                                </div>
+                                <p class="content__descr">
+                                    <b>30 вариантов</b>
+                                    фрезеровок для фасадов
+                                </p>
+                            </li>
+                            <li class="header__content-item">
+                                <div class="header__content-item-img">
+                                    <img src="assets/icons/header-svg3.svg" alt="">
+                                </div>
+                                <p class="content__descr">
+                                    <b>Собственное</b> производство 1250 м &sup2;
+
+                                </p>
+                            </li>
+                            <li class="header__content-item">
+                                <div class="header__content-item-img">
+                                    <img src="assets/icons/header-svg4.svg" alt="">
+                                </div>
+                                <p class="content__descr">
+                                    Выкрасим <b>в любой</b> цвет под Ваш интерьер
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="header__content-buttons">
+                            <button class="content__button btn-yellow ">
+                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.53081 23.5322L6.43424 20.0012L2.46179 19.1184L2.848 15.0356L0.144531 11.9459L2.848 8.85624L2.46179 4.77345L6.43424 3.89068L8.53081 0.359619L12.2826 1.95963L16.0343 0.359619L18.1309 3.89068L22.1033 4.77345L21.7171 8.85624L24.4206 11.9459L21.7171 15.0356L22.1033 19.1184L18.1309 20.0012L16.0343 23.5322L12.2826 21.9322L8.53081 23.5322ZM11.1239 15.8632L17.3585 9.62866L15.8136 8.02865L11.1239 12.7183L8.7515 10.4011L7.20666 11.9459L11.1239 15.8632Z"
+                                        fill="#75543C" />
+                                </svg>
+                                Заявка на расчет
+                            </button>
+                            <button class="content__button btn-blue shadow">
+                                <i class="fa-solid fa-phone"></i>
+                                Позвонить сейчас
+                            </button>
+                        </div>
+                        <span class="header__description">
+                            Узнайте стоимость Вашей мебели еще до приезда замерщика с точностью до 99%
+                        </span>
+                    </div>
+                    <div class="header__content-right">
+                        <img src="assets/img/image5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body class="body">
+        <main class="main">
+            <section class="about-us">
+                <div class="about-us-content container">
+                    <img src="assets/img/mobile.png" alt="some pickture">
+                    <h2 class="content__title-big">Заголовок блока</h2>
+                    <p class="sub-title about-us__sub-title">Компания "Премьер Фасад" - опытный и надежный производитель
+                        мебели на
+                        заказ. Мы успешно работаем на рынке с 2012 года, предоставляя клиентам качественные и
+                        индивидуальные решения для создания уютной и стильной обстановки. <br><br> Мы являемся
+                        полноценной
+                        мебельной фабрикой, оснащенной современным оборудованием и использующей только
+                        высококачественные материалы.</p>
+                    <img src="assets/img/player.png" alt="player">
+                </div>
+            </section>
+            <section class="section__gallery">
+                <div class="container">
+                    <div class="secton__top">
+                        <h2 class="content__title-big">МЫ ИЗГОТАВЛИВАЕМ</h2>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__content-gallery">
+                            <a href="assets/img/image 6.png" data-fancybox="gallery" class="content__gallery-some">
+                                <div class="content__gallery-some_shadow">
+                                </div>
+                                <div class="content__gallery-some_img">
+                                    <img src="assets/img/image 6.png" alt="">
+                                </div>
+                                <div class="content__gallery-some_about">
+                                    <h4>Шкафы в спальню</h4>
+                                </div>
+                            </a>
+                            <a href="assets/img/image 10.png" data-fancybox="gallery" class="content__gallery-some">
+                                <div class="content__gallery-some_shadow">
+                                </div>
+                                <div class="content__gallery-some_img">
+                                    <img src="assets/img/image 10.png" alt="">
+                                </div>
+                                <div class="content__gallery-some_about">
+                                    <h4>Шкафы в спальню</h4>
+                                </div>
+                            </a>
+                            <a href="assets/img/image 11.png" data-fancybox="gallery" class="content__gallery-some">
+                                <div class="content__gallery-some_shadow">
+                                </div>
+                                <div class="content__gallery-some_img">
+                                    <img src="assets/img/image 11.png" alt="">
+                                </div>
+                                <div class="content__gallery-some_about">
+                                    <h4>Шкафы в спальню</h4>
+                                </div>
+                            </a>
+                            <a href="assets/img/image 12.png" data-fancybox="gallery" class="content__gallery-some">
+                                <div class="content__gallery-some_shadow">
+                                </div>
+                                <div class="content__gallery-some_img">
+                                    <img src="assets/img/image 12.png" alt="">
+                                </div>
+                                <div class="content__gallery-some_about">
+                                    <h4>Шкафы в спальню</h4>
+                                </div>
+                            </a>
+                            <a href="assets/img/image 9.png" data-fancybox="gallery" class="content__gallery-some">
+                                <div class="content__gallery-some_shadow">
+                                </div>
+                                <div class="content__gallery-some_img">
+                                    <img src="assets/img/image 9.png" alt="">
+                                </div>
+                                <div class="content__gallery-some_about">
+                                    <h4>Шкафы в спальню</h4>
+                                </div>
+                            </a>
+                            <a href="assets/img/image 7.png" data-fancybox="gallery" class="content__gallery-some">
+                                <div class="content__gallery-some_shadow">
+                                </div>
+                                <div class="content__gallery-some_img">
+                                    <img src="assets/img/image 7.png" alt="">
+                                </div>
+                                <div class="content__gallery-some_about">
+                                    <h4>Шкафы в спальню</h4>
+                                </div>
+                            </a>
+                            <a href="assets/img/image 8.png" data-fancybox="gallery" class="content__gallery-some">
+                                <div class="content__gallery-some_shadow">
+                                </div>
+                                <div class="content__gallery-some_img">
+                                    <img src="assets/img/image 8.png" alt="">
+                                </div>
+                                <div class="content__gallery-some_about">
+                                    <h4>Шкафы в спальню</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section__catalog furniture">
+                <div class="container">
+                    <div class="secton__top">
+                        <h2 class="content__title-big">
+                            НАШИ РЕАЛИЗОВАННЫЕ ПРОЕКТЫ
+                        </h2>
+                        <h3 class="content__title-small">Все работы реальные и реализованы нашей компанией</h3>
+                    </div>
+                    <div class="section__content">
+                        <div class="section__content-top">
+                            <ul class="section__content-tabs">
+                                <li class="section__content-tab active">спальни</li>
+                                <li class="section__content-tab">Прихожие</li>
+                                <li class="section__content-tab">Детские</li>
+                                <li class="section__content-tab">Книжные</li>
+                                <li class="section__content-tab">Гостинные</li>
+                                <li class="section__content-tab">Гардеробные</li>
+                                <li class="section__content-tab">Тумбы</li>
+                            </ul>
+                        </div>
+                        <div class="section__content-main">
+                            <div class="section__content-products">
+                                <div class="section__content-product">
+                                    <a href="assets/img/catalog1.png" fancybox-id="catalog"
+                                        class="section__content-photo">
+                                        <img src="assets/img/catalog1.png" alt="">
+                                    </a>
+                                    <div class="section__content-about">
+                                        <div class="section__content-about-wrapper">
+                                            <div class="about__wrapper-top">
+                                                <h3 class="content__title-big">
+                                                    Шкаф в спальню
+                                                </h3>
+                                                <p class="content__catalog-descr">
+                                                    Проект был выполнен в р-не Береговой, ЖК “Клубный дом SOHO+NOHO”
+                                                </p>
+                                            </div>
+                                            <ul class="about__wrapper-info">
+                                                <li class="about__wrapper-info-text">
+                                                    <span>Размеры</span>
+                                                    <p>2700 х 2230 х 600</p>
+                                                </li>
+                                                <li class="about__wrapper-info-text">
+                                                    <span>Фасады</span>
+                                                    <p>МДВ в эмали, NCS S1005-R80B</p>
+                                                </li>
+                                                <li class="about__wrapper-info-text">
+                                                    <span>Корпус</span>
+                                                    <p>ЛДСП EGGER, W908 SM Белый базовый</p>
+                                                </li>
+                                            </ul>
+                                            <button class="bttn-simple bttn-md btn-primary content__button btn-yellow">
+                                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8.53081 23.5322L6.43424 20.0012L2.46179 19.1184L2.848 15.0356L0.144531 11.9459L2.848 8.85624L2.46179 4.77345L6.43424 3.89068L8.53081 0.359619L12.2826 1.95963L16.0343 0.359619L18.1309 3.89068L22.1033 4.77345L21.7171 8.85624L24.4206 11.9459L21.7171 15.0356L22.1033 19.1184L18.1309 20.0012L16.0343 23.5322L12.2826 21.9322L8.53081 23.5322ZM11.1239 15.8632L17.3585 9.62866L15.8136 8.02865L11.1239 12.7183L8.7515 10.4011L7.20666 11.9459L11.1239 15.8632Z"
+                                                        fill="#75543C"></path>
+                                                </svg>
+                                                Узнать стоимость
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section__content-product">
+                                    <a href="assets/img/catalog2.png" fancybox-id="catalog"
+                                        class="section__content-photo">
+                                        <img src="assets/img/catalog2.png" alt="">
+                                    </a>
+                                    <div class="section__content-about">
+                                        <div class="section__content-about-wrapper">
+                                            <div class="about__wrapper-top">
+                                                <h3 class="content__title-big">
+                                                    Шкаф в спальню
+                                                </h3>
+                                                <p class="content__catalog-descr">
+                                                    Проект был выполнен в р-не Береговой, ЖК “Клубный дом SOHO+NOHO”
+                                                </p>
+                                            </div>
+                                            <ul class="about__wrapper-info">
+                                                <li class="about__wrapper-info-text">
+                                                    <span>Размеры</span>
+                                                    <p>2700 х 2230 х 600</p>
+                                                </li>
+                                                <li class="about__wrapper-info-text">
+                                                    <span>Фасады</span>
+                                                    <p>МДВ в эмали, NCS S1005-R80B</p>
+                                                </li>
+                                                <li class="about__wrapper-info-text">
+                                                    <span>Корпус</span>
+                                                    <p>ЛДСП EGGER, W908 SM Белый базовый</p>
+                                                </li>
+                                            </ul>
+                                            <button
+                                                class="bttn-simple bttn-md bttn-primary content__button btn-yellow ">
+                                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M8.53081 23.5322L6.43424 20.0012L2.46179 19.1184L2.848 15.0356L0.144531 11.9459L2.848 8.85624L2.46179 4.77345L6.43424 3.89068L8.53081 0.359619L12.2826 1.95963L16.0343 0.359619L18.1309 3.89068L22.1033 4.77345L21.7171 8.85624L24.4206 11.9459L21.7171 15.0356L22.1033 19.1184L18.1309 20.0012L16.0343 23.5322L12.2826 21.9322L8.53081 23.5322ZM11.1239 15.8632L17.3585 9.62866L15.8136 8.02865L11.1239 12.7183L8.7515 10.4011L7.20666 11.9459L11.1239 15.8632Z"
+                                                        fill="#75543C"></path>
+                                                </svg>
+                                                Узнать стоимость
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__button-more">
+                        <button class="bttn-material-flat bttn-md content__button section__content-tab">
+                            <i class="fa-solid fa-rotate-right"></i>
+                            Показать еще
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="show-room mobile">
+                <div class="show-room-content container">
+                    <div class="show-room__text">
+                        <h2 class="title show-room__title">шоурум <br> в центре москвы</h2>
+                        <span class="sub-title show-room__sub-title">Мы находимся в центре дизайна — ARTPLAY</span>
+                        <img src="assets/img/show-room.png" alt="show-room-img">
+                        <ul class="show-room-lists">
+                            <li class="show-room-list">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div class="list-text">
+                                    <h3 class="list-title">ARTPLAY, ул. Нижняя Сыромятническая</h3>
+                                    <span class="list-sub-title">Адрес шоурума</span>
+                                </div>
+                            </li>
+                            <li class="show-room-list">
+                                <i class="fa-solid fa-clock"></i>
+                                <div class="list-text">
+                                    <h3 class="list-title">Ежедневно с 10:00 до 20:00</h3>
+                                    <span class="list-sub-title">Работаем ежедневно без выходных</span>
+                                </div>
+                            </li>
+                            <li class="show-room-list">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="list-text">
+                                    <h3 class="list-title">+7 (916) 669-79-12</h3>
+                                    <span class="list-sub-title">Телефон</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+            <section class="section__form">
+
+                <div class="container">
+                    <div class="secton__top">
+                        <h2 class="content__title-big">
+                            ОСТАВЬТЕ ЗАЯВКУ НА РАСЧЕТ СТОИМОСТИ
+                        </h2>
+                        <h3 class="content__title-small">Сделаем расчет Вашего проекта в нескольких вариантах</h3>
+                    </div>
+                    <div class="section__content">
+                        <form class="section__form">
+                            <svg class="form__decor" width="34" height="100" viewBox="0 0 34 100" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.04106 99.2959C39.1521 76.9374 47.7906 20.0249 1.04105 0.715335"
+                                    stroke="#E9E9E9" />
+                            </svg>
+                            <input type="text" name="name" placeholder="Введите Ваше имя">
+                            <input type="tel" name="phone" placeholder="Контактный телефон">
+                            <div class="section__form-submit">
+                                <div class="content__btn-title before">Это бесплатно <br> и ни к чему <br> не обязывает
+                                </div>
+                                <button type="text" class="bttn-simple bttn-md bttn-primary content__button btn-yellow"
+                                    type="submit">
+                                    Отправить
+                                </button>
+                                <div class="content__btn-title after">Нажимая на кнопку, Вы даете согласие на
+                                    <a href="#">обработку персональных данных</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="customer-reviews">
+                <div class="customer-reviews__content container">
+                    <h2 class="title customer-reviews__title">Отзывы клиентов</h2>
+                    <p class="sub-title customer-reviews__sub-title">Все работы реальные и реализованы нашей компанией
+                    </p>
+                    <!-- Slider main container -->
+                    <div class="swiper customer-reviews__slider">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="assets/img/slider.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slider.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slider.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slider.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slider.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slider.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/slider.png" alt="">
+
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+
+                        <!-- If we need navigation buttons -->
+
+                        <div class="slider-navigation">
+                            <div class="slider-prev">
+                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="0.911133" width="50" height="50" fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.4582 26.6302C21.2707 26.4427 21.1654 26.1884 21.1654 25.9232C21.1654 25.658 21.2707 25.4037 21.4582 25.2162L27.1152 19.5592C27.2074 19.4637 27.3178 19.3875 27.4398 19.3351C27.5618 19.2827 27.693 19.2551 27.8258 19.2539C27.9586 19.2528 28.0902 19.2781 28.2131 19.3284C28.336 19.3787 28.4477 19.4529 28.5416 19.5468C28.6355 19.6407 28.7097 19.7523 28.76 19.8752C28.8103 19.9981 28.8356 20.1298 28.8344 20.2626C28.8333 20.3954 28.8057 20.5266 28.7533 20.6486C28.7009 20.7706 28.6247 20.8809 28.5292 20.9732L23.5792 25.9232L28.5292 30.8732C28.7113 31.0618 28.8121 31.3144 28.8099 31.5766C28.8076 31.8388 28.7024 32.0896 28.517 32.275C28.3316 32.4604 28.0808 32.5656 27.8186 32.5679C27.5564 32.5701 27.3038 32.4694 27.1152 32.2872L21.4582 26.6302Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="slider-next">
+                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="50" height="50" transform="matrix(-1 0 0 1 50 0.911133)"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M28.5418 26.6302C28.7293 26.4427 28.8346 26.1884 28.8346 25.9232C28.8346 25.658 28.7293 25.4037 28.5418 25.2162L22.8848 19.5592C22.7926 19.4637 22.6822 19.3875 22.5602 19.3351C22.4382 19.2827 22.307 19.2551 22.1742 19.2539C22.0414 19.2528 21.9098 19.2781 21.7869 19.3284C21.664 19.3787 21.5523 19.4529 21.4584 19.5468C21.3645 19.6407 21.2903 19.7523 21.24 19.8752C21.1897 19.9981 21.1644 20.1298 21.1656 20.2626C21.1667 20.3954 21.1943 20.5266 21.2467 20.6486C21.2991 20.7706 21.3753 20.8809 21.4708 20.9732L26.4208 25.9232L21.4708 30.8732C21.2887 31.0618 21.1879 31.3144 21.1901 31.5766C21.1924 31.8388 21.2976 32.0896 21.483 32.275C21.6684 32.4604 21.9192 32.5656 22.1814 32.5679C22.4436 32.5701 22.6962 32.4694 22.8848 32.2872L28.5418 26.6302Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__production">
+                <div class="section__production-content container">
+                    <div class="secton__left">
+                        <h2 class="content__title-big">
+                            СОБСТВЕННОЕ ПРОИЗВОДСТВО
+                        </h2>
+                        <p class="content__catalog-descr">
+                            Компания "Премьер Фасад" - опытный и надежный производитель мебели на заказ. Мы успешно
+                            работаем на рынке с 2012 года, предоставляя клиентам качественные и индивидуальные
+                            решения для создания уютной и стильной обстановки.
+                            <br><br>
+                            Мы являемся полноценной мебельной фабрикой, оснащенной современным оборудованием и
+                            использующей только высококачественные материалы.
+                        </p>
+                        <a class="production" href="assets/img/prouction1.png" data-fancybox="production">
+                            <img src="assets/img/prouction1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section__right">
+                        <a href="assets/img/prouction2.png" data-fancybox="production">
+                            <img src="assets/img/prouction2.png" alt="">
+                        </a>
+                        <a href="assets/img/prouction3.png" data-fancybox="production">
+                            <img src="assets/img/prouction3.png" alt="">
+                        </a>
+                        <a href="assets/img/prouction4.png" data-fancybox="production">
+                            <img src="assets/img/prouction4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-achievement">
+                <div class="achievement-content container">
+                    <div class="achievement">
+                        <div class="achievement-header">
+                            <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.10088 0.168945L9.10054 0.169115L10.3365 2.98708L2.03019 4.1738L5.9856 8.03008L0.299805 14.2596L4.00811 15.6934L3.21707 24.6421L7.32072 23.9499L11.6715 34.2336L13.8963 31.712L21.9553 39.7214L22.153 36.6561L31.695 40.4629L30.0636 36.8042L38.9135 35.5188L35.3043 32.0578L40.9405 25.9271L36.6887 24.2958L37.4303 15.248L32.9807 15.9896L28.6298 5.60746L26.4546 8.12896L18.8902 0.613985L18.6923 3.97604L9.10088 0.168945ZM21.3592 8.67144L25.8248 13.3191L26.7076 11.0941L28.8346 18.263L30.4438 17.1261L29.2052 22.4656L32.1699 22.2679L27.9306 26.5198L30.9838 28.0028L30.9843 28.0026L30.9841 28.003L30.9838 28.0029L25.6431 29.2389L27.1198 31.3155L20.3766 29.14L20.7589 31.8594L16.4057 27.3602L15.4258 29.7829L13.3619 22.7623L11.151 24.3443L12.6281 18.0159L9.41606 18.2137L13.5942 14.0113L10.6276 12.5774L16.8073 11.1438L15.1807 8.86936L21.6882 10.9953L21.3589 8.67152L21.3592 8.67144ZM19.3829 16.7854C18.1291 16.7854 17.8231 18.2161 18.6993 19.9812C19.5755 21.7462 21.3019 23.1768 22.5554 23.1768C23.8092 23.1768 24.1152 21.7461 23.2391 19.9811C22.3629 18.2161 20.6365 16.7854 19.3829 16.7854L19.3829 16.7854Z"
+                                    fill="#FFCF25" />
+                            </svg>
+                            <h2 class="achievement-title">1 250 м <p class="degree">2</p>
+                            </h2>
+                        </div>
+                        <p class="achievement-body">Производственная <br> площадь</p>
+                    </div>
+                    <div class="achievement">
+                        <div class="achievement-header">
+                            <svg width="41" height="41" viewBox="0 0 41 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.63 0.764104C17.6839 0.66522 17.8907 0.449473 18.0794 0.287663L18.43 0H20.3628L20.365 1.06096e-05C22.2775 0.00898949 22.2956 0.00907436 22.5832 0.224737C22.745 0.350589 22.9517 0.557347 23.0326 0.692188C23.1765 0.907936 23.2034 1.26751 23.2394 3.60477C23.2843 6.15778 23.2933 6.29262 23.4731 6.53534C23.581 6.67018 23.7787 6.86795 23.9046 6.96683C24.0844 7.10167 24.2911 7.14662 24.6777 7.14662C25.0642 7.14662 25.271 7.10167 25.4508 6.96683C25.5766 6.86795 25.7744 6.67018 25.8823 6.53534C26.0531 6.30161 26.0711 6.15778 26.089 4.57564C26.107 3.64073 26.143 2.87663 26.1789 2.87663C26.2239 2.87663 26.5745 3.06541 26.97 3.29913C27.3655 3.54185 27.9499 3.92839 28.2735 4.1801C28.5971 4.42281 29.1634 4.92622 29.541 5.30378C29.9096 5.67235 30.4399 6.28363 30.7186 6.6522C30.9883 7.02077 31.4018 7.65003 31.6355 8.04557C31.8603 8.4411 32.2109 9.16925 32.3996 9.66367C32.5974 10.1581 32.8042 10.7963 32.8761 11.075C32.984 11.5515 33.0109 11.5874 33.3076 11.6503C33.5233 11.6863 33.766 11.8571 34.0717 12.1717C34.3504 12.4504 34.5661 12.774 34.638 12.9898C34.692 13.1875 34.7459 13.4932 34.7459 13.664C34.7459 13.8348 34.692 14.1404 34.629 14.3292C34.5751 14.527 34.3593 14.8686 34.1526 15.0933C33.9129 15.369 33.6432 15.5608 33.3435 15.6686C32.93 15.8125 32.112 15.8215 20.3628 15.8215C10.8789 15.8215 7.73256 15.7945 7.46288 15.7136C7.24713 15.6417 6.92351 15.4259 6.65383 15.1472C6.37515 14.8776 6.15941 14.5539 6.08749 14.3382C6.03355 14.1404 5.97962 13.8348 5.97962 13.664C5.97962 13.4932 6.03355 13.1875 6.08749 12.9898C6.15941 12.774 6.37515 12.4504 6.65383 12.1717C6.95947 11.8571 7.20218 11.6863 7.41793 11.6503C7.71458 11.5874 7.74155 11.5515 7.84942 11.075C7.92134 10.7963 8.1281 10.1581 8.32587 9.66367C8.51464 9.16925 8.88321 8.39616 9.14391 7.95567C9.41359 7.5062 9.82711 6.88593 10.0698 6.56231C10.3125 6.23869 10.8159 5.67235 11.1935 5.30378C11.5621 4.93521 12.1284 4.4318 12.452 4.1801C12.7756 3.93738 13.36 3.54185 13.7555 3.29913C14.151 3.06541 14.5016 2.87663 14.5466 2.87663C14.5825 2.87663 14.6185 3.64073 14.6365 4.57564C14.6544 6.15778 14.6724 6.30161 14.8432 6.53534C14.9511 6.67018 15.1489 6.86795 15.2747 6.96683C15.4545 7.10167 15.6613 7.14662 16.0478 7.14662C16.4344 7.14662 16.6411 7.10167 16.8209 6.96683C16.9468 6.86795 17.1445 6.67018 17.2524 6.53534C17.4322 6.29262 17.4412 6.15778 17.4861 3.61376C17.5131 1.90577 17.567 0.880967 17.63 0.764104Z"
+                                    fill="#FFCF25" />
+                                <path
+                                    d="M6.83362 32.5778C7.13027 32.443 7.67863 32.2182 8.04719 32.0834C8.41576 31.9396 8.74837 31.8227 8.78433 31.8227C8.82928 31.8227 8.85625 33.7195 8.85625 40.2638H5.08067C2.0692 40.2638 1.25116 40.2458 1.05339 40.1469C0.918551 40.075 0.702804 39.8952 0.558972 39.7424C0.42413 39.5896 0.289288 39.3109 0.26232 39.1221C0.226362 38.9334 0.226362 38.6637 0.26232 38.5108C0.289288 38.367 0.558972 37.8996 0.864614 37.4771C1.17026 37.0635 1.79053 36.3354 2.24 35.8769C2.68947 35.4095 3.41762 34.7533 3.86709 34.4027C4.30758 34.0611 5.03572 33.5577 5.4852 33.297C5.92568 33.0363 6.53696 32.7126 6.83362 32.5778Z"
+                                    fill="#FFCF25" />
+                                <path
+                                    d="M20.3807 35.9489C20.6504 35.9489 21.6303 35.4994 24.8305 33.8903C27.0959 32.7576 28.9567 31.8227 28.9657 31.8227C28.9836 31.8227 28.9926 33.7195 28.9926 40.2638H11.7329V36.2635C11.7329 33.1082 11.7598 32.2722 11.8407 32.3081C11.9037 32.3261 13.7735 33.1531 16.0029 34.142C18.8885 35.4365 20.147 35.9489 20.3807 35.9489Z"
+                                    fill="#FFCF25" />
+                                <path
+                                    d="M31.8693 40.2638L31.8783 36.0387L31.8872 31.8047L32.076 31.8676C32.1839 31.8946 32.6783 32.0834 33.1727 32.2812C33.6672 32.4789 34.3953 32.8115 34.7908 33.0273C35.1864 33.243 35.8696 33.6745 36.319 33.9892C36.7595 34.3038 37.5596 34.987 38.099 35.4994C38.6383 36.0208 39.3845 36.8478 39.753 37.3422C40.1126 37.8366 40.4362 38.367 40.4632 38.5108C40.4991 38.6637 40.4902 38.9334 40.4632 39.1221C40.4362 39.3109 40.3014 39.5896 40.1575 39.7424C40.0227 39.8952 39.807 40.075 39.6631 40.1469C39.4654 40.2458 38.6563 40.2638 31.8693 40.2638Z"
+                                    fill="#FFCF25" />
+                                <path
+                                    d="M10.3845 21.4399C10.3395 21.0893 10.2946 20.3342 10.2946 19.7498V18.6981H30.431V19.7498C30.431 20.3342 30.386 21.0893 30.3321 21.4399C30.2871 21.7815 30.1613 22.3927 30.0624 22.7883C29.9635 23.1838 29.6399 23.9929 29.3522 24.5862C29.0016 25.2874 28.5971 25.9256 27.5633 27.1931L27.5543 29.3056L20.3178 32.9194L13.2161 29.7641L13.1532 27.1931L12.5329 26.429C12.1284 25.9346 11.7239 25.2784 11.3733 24.5862C11.0766 23.9929 10.753 23.1838 10.6541 22.7883C10.5553 22.3927 10.4384 21.7815 10.3845 21.4399Z"
+                                    fill="#FFCF25" />
+                            </svg>
+                            <h2 class="achievement-title">43</h2>
+                        </div>
+                        <p class="achievement-body">Сотрудников <br> компании</p>
+                    </div>
+                    <div class="achievement">
+                        <div class="achievement-header">
+                            <svg width="41" height="39" viewBox="0 0 41 39" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.1529 38.6318L10.6577 32.7451L4.03506 31.2734L4.67892 24.4668L0.171875 19.3159L4.67892 14.165L4.03506 7.35845L10.6577 5.88676L14.1529 0L20.4076 2.66744L26.6623 0L30.1575 5.88676L36.7801 7.35845L36.1363 14.165L40.6433 19.3159L36.1363 24.4668L36.7801 31.2734L30.1575 32.7451L26.6623 38.6318L20.4076 35.9644L14.1529 38.6318ZM18.476 25.8465L28.8698 15.4527L26.2944 12.7853L18.476 20.6036L14.5208 16.7405L11.9454 19.3159L18.476 25.8465Z"
+                                    fill="#FFCF25" />
+                            </svg>
+                            <h2 class="achievement-title">14 236</h2>
+                        </div>
+                        <p class="achievement-body">Реализованных <br> проектов</p>
+                    </div>
+                </div>
+            </section>
+            <section class="team">
+                <div class="team-content container">
+                    <div class="team-container">
+                        <div class="team-left">
+                            <h2 class="team-title title">команда</h2>
+                            <p class="sub-title team__sub-title">На этом фото Вы видите людей, с которыми мы строим
+                                лучшую
+                                компанию по производству корпусной мебели на заказ. Мы с уверенностью можем сказать, что
+                                у
+                                нас работают лучшие профессионалы. Все наши сотрудники проходят постоянное обучение по
+                                продукции.</p>
+                        </div>
+                        <img src="assets/img/team-right.png" alt="">
+                    </div>
+                    <img src="assets/img/team-all.png" alt="">
+                </div>
+            </section>
+            <section class="customer-reviews">
+                <div class="customer-reviews__content container">
+                    <h2 class="title customer-reviews__title">Примеры реализованных проектов</h2>
+                    <!-- Slider main container -->
+                    <div class="swiper customer-reviews__slider">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="assets/img/examples.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/examples.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/examples.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/examples.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/examples.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/examples.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/examples.png" alt="">
+
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+
+                        <!-- If we need navigation buttons -->
+
+                        <div class="slider-navigation">
+                            <div class="slider-prev">
+                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="0.911133" width="50" height="50" fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.4582 26.6302C21.2707 26.4427 21.1654 26.1884 21.1654 25.9232C21.1654 25.658 21.2707 25.4037 21.4582 25.2162L27.1152 19.5592C27.2074 19.4637 27.3178 19.3875 27.4398 19.3351C27.5618 19.2827 27.693 19.2551 27.8258 19.2539C27.9586 19.2528 28.0902 19.2781 28.2131 19.3284C28.336 19.3787 28.4477 19.4529 28.5416 19.5468C28.6355 19.6407 28.7097 19.7523 28.76 19.8752C28.8103 19.9981 28.8356 20.1298 28.8344 20.2626C28.8333 20.3954 28.8057 20.5266 28.7533 20.6486C28.7009 20.7706 28.6247 20.8809 28.5292 20.9732L23.5792 25.9232L28.5292 30.8732C28.7113 31.0618 28.8121 31.3144 28.8099 31.5766C28.8076 31.8388 28.7024 32.0896 28.517 32.275C28.3316 32.4604 28.0808 32.5656 27.8186 32.5679C27.5564 32.5701 27.3038 32.4694 27.1152 32.2872L21.4582 26.6302Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                            <div class="slider-next">
+                                <svg width="50" height="51" viewBox="0 0 50 51" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="50" height="50" transform="matrix(-1 0 0 1 50 0.911133)"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M28.5418 26.6302C28.7293 26.4427 28.8346 26.1884 28.8346 25.9232C28.8346 25.658 28.7293 25.4037 28.5418 25.2162L22.8848 19.5592C22.7926 19.4637 22.6822 19.3875 22.5602 19.3351C22.4382 19.2827 22.307 19.2551 22.1742 19.2539C22.0414 19.2528 21.9098 19.2781 21.7869 19.3284C21.664 19.3787 21.5523 19.4529 21.4584 19.5468C21.3645 19.6407 21.2903 19.7523 21.24 19.8752C21.1897 19.9981 21.1644 20.1298 21.1656 20.2626C21.1667 20.3954 21.1943 20.5266 21.2467 20.6486C21.2991 20.7706 21.3753 20.8809 21.4708 20.9732L26.4208 25.9232L21.4708 30.8732C21.2887 31.0618 21.1879 31.3144 21.1901 31.5766C21.1924 31.8388 21.2976 32.0896 21.483 32.275C21.6684 32.4604 21.9192 32.5656 22.1814 32.5679C22.4436 32.5701 22.6962 32.4694 22.8848 32.2872L28.5418 26.6302Z"
+                                        fill="black" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="calculation-form mobile">
+                <div class="calculation-form-content container">
+                    <h2 class="title calculation-form__title">оставьте заявку на расчет стоимости</h2>
+                    <p class="sub-title calculation-form__sub-title">Сделаем расчет Вашего проекта в нескольких
+                        вариантах</p>
+                    <img src="assets/img/calculate-decor.svg" alt="">
+                    <div class="dimensions-inputs calculation-form__inputs">
+                        <input type="text" name="name" id="name" placeholder="Введите Ваше имя">
+                        <input type="tel" name="phone" id="phone" placeholder="Контактный телефон">
+                        <button class="calculation-btn yellow-btn">Отправить</button>
+                        <p class="btn-text">Нажимая на кнопку, Вы даете согласие на <a href="#">обработку персональных
+                                данных</a> </p>
+                    </div>
+                </div>
+            </section>
+            <section class="calculation desktop">
+                <div class="calculation-content container">
+                    <h2 class="title calculation-title">Рассчитайте стоимость <br> шкафа, заполнив пару <br> простых
+                        полей</h2>
+                    <span class="calculation-sub-title">Рассчитайте шкаф по индивидуальным размерам по цене готовых!
+                        <br> Мы
+                        сделаем примерный расчет и предложим вам несколько вариантов бюджета.</span>
+                    <form action="#" class="calculation__form">
+                        <div class="steps">
+                            <div class="step">
+                                <p class="step-count">шаг 1</p>
+                                <h3 class="step-title">габариты шкафа</h3>
+                                <div class="dimensions-inputs">
+                                    <div class="dimension-input">
+                                        <label for="width">Длина</label>
+                                        <input type="number" name="width" id="width" placeholder="">
+                                    </div>
+                                    <div class="dimension-input">
+                                        <label for="depth">Глубина</label>
+                                        <input type="number" name="depth" id="depth" placeholder="">
+                                    </div>
+                                    <div class="dimension-input">
+                                        <label for="height">Высота</label>
+                                        <input type="number" name="height" id="height">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <p class="step-count">шаг 2</p>
+                                <h3 class="step-title">материалы фасадов</h3>
+                                <div class="dimensions-inputs">
+                                    <div class="material-input">
+                                        <label for="enamel">Эмаль</label>
+                                        <input type="radio" name="material" id="enamel" placeholder="Эмаль">
+                                    </div>
+                                    <div class="material-input">
+                                        <label for="veneer">Шпон</label>
+                                        <input type="radio" name="material" id="veneer" placeholder="Шпон">
+                                    </div>
+
+                                    <div class="material-input">
+                                        <label for="aluminumGlass">Аллюминий + Стекло</label>
+                                        <input type="radio" name="material" id="aluminumGlass"
+                                            placeholder="Аллюминий + Стекло">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <p class="step-count">шаг 3</p>
+                                <h3 class="step-title">Контактные данные</h3>
+                                <div class="dimensions-inputs contacts-inputs">
+                                    <input type="text" name="name" id="name" placeholder="Введите Ваше имя">
+                                    <input type="tel" name="phone" id="phone" placeholder="Контактный телефон">
+                                    <button class="calculation-btn yellow-btn">заказать расчет</button>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="btn-text">Нажимая на кнопку, Вы даете согласие на обработку персональных данных</p>
+                    </form>
+                </div>
+            </section>
+            <section class="show-room desktop">
+                <div class="show-room-content container">
+                    <img src="assets/img/show-room.png" alt="show-room-img">
+                    <div class="show-room__text">
+                        <h2 class="title show-room__title">шоурум <br> в центре москвы</h2>
+                        <span class="sub-title show-room__sub-title">Мы находимся в центре дизайна — ARTPLAY</span>
+                        <ul class="show-room-lists">
+                            <li class="show-room-list">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div class="list-text">
+                                    <h3 class="list-title">ARTPLAY, ул. Нижняя Сыромятническая</h3>
+                                    <span class="list-sub-title">Адрес шоурума</span>
+                                </div>
+                            </li>
+                            <li class="show-room-list">
+                                <i class="fa-solid fa-clock"></i>
+                                <div class="list-text">
+                                    <h3 class="list-title">Ежедневно с 10:00 до 20:00</h3>
+                                    <span class="list-sub-title">Работаем ежедневно без выходных</span>
+                                </div>
+                            </li>
+                            <li class="show-room-list">
+                                <i class="fa-solid fa-phone"></i>
+                                <div class="list-text">
+                                    <h3 class="list-title">+7 (916) 669-79-12</h3>
+                                    <span class="list-sub-title">Телефон</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+            <section class="contact-us desktop">
+                <div class="contact-us-content container">
+                    <h2 class="title contact-us-title">связаться с нами</h2>
+                    <span class="sub-title contact-us-sub-title">Оставьте заявку и мы с Вами свяжемся в течение 15 минут
+                        <br> в
+                        рабочее время, ежедевно с 10:00 до 20:00</span>
+                    <form action="#" class="contact-us-form">
+                        <input type="text" name="username" id="username" placeholder="Введите Ваше имя">
+                        <input type="tel" name="phone" id="phone" placeholder="Контактный телефон">
+                        <button type="submit" class="form-btn yellow-btn">Отправить</button>
+                    </form>
+                </div>
+            </section>
+            <section class="feedback desktop">
+                <div class="feedback-content container">
+                    <div class="feedback-title-content">
+                        <h2 class="title feedback-title">отзывы наших <br> клиентов в яндексе</h2>
+                        <span class="sub-title feedback-sub-title">Каждый клиент доволен нашей работой</span>
+                    </div>
+                    <img src="assets/img/feedback.png" alt="feedback-img">
+                </div>
+            </section>
+            <section class="location">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.5832895223166!2d37.578510126924876!3d55.86989602019065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5370e75c6c0b3%3A0x89c733acf0797bc7!2z0J_RgNC10LzRjNC10YAg0KTQsNGB0LDQtA!5e0!3m2!1sru!2s!4v1710160103545!5m2!1sru!2s"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+    </body>
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-upper">
+                <div class="footer-upper__left">
+                    <a href="#" class="logo-link"><img src="assets/icons/Logo.svg" alt="logo icon"></a>
+                    <div class="social-links">
+                        <span>Мы в социальных <br> сетях:</span>
+                        <a href="http://"><img src="assets/icons/Insta.svg" alt="instagram icon"></a>
+                        <a href="http://"><img src="assets/icons/Telegram.svg" alt="Telegram icon"></a>
+                    </div>
+                </div>
+                <div class="footer-upper__right">
+                    <div class="contacts-text">
+                        <span>8 (800) 250-24-11</span>
+                        <span>Ежедневно <strong>с 10.00 до 19.00</strong> </span>
+                    </div>
+                    <a href="tel:+88002502411" class="contacts-btn">
+                        <i class="fa-solid fa-phone"></i>
+                        Перезвонить мне</a>
+                </div>
+            </div>
+            <div class="footer-lower">
+                <span>ООО “Премьер фасад” – производство распашных шкафов. <br> © 2023 Все права защищены</span>
+                <div class="footer-lower__right">
+                    <a href="http://">Политика конфиденциальности</a>
+                    <a href="http://">Публичная оферта</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+        const swiper = new Swiper('.swiper', {
+            direction: 'horizontal',
+            loop: true,
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            slidesPerView: 1,
+            // Navigation arrows
+            navigation: {
+                nextEl: '.slider-next',
+                prevEl: '.slider-prev',
+            },
+        })
+    </script>
+</body>
+
+</html>
